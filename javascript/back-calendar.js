@@ -7,7 +7,7 @@ const send = document.getElementById('send');
 monthView.value = '';
 typeView.value = '';
 titleView.value = '';
-textView.valu = '';
+textView.value = '';
 
 let makma;
 
@@ -25,8 +25,6 @@ const requestGet = async gUrl => {
 
 requestGet(backUrl).then(value => makma = value);
 
-console.log(makma);
-
 send.addEventListener('click', () => {
     let data = {
         month: parseInt(monthView.value),
@@ -36,4 +34,11 @@ send.addEventListener('click', () => {
     }
     console.log(data);
 
+    monthView.value = '';
+    typeView.value = '';
+    titleView.value = '';
+    textView.value = '';
+
+    makma.push(data);
+    console.log(makma);
 })
