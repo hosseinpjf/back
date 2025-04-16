@@ -30,7 +30,8 @@ weekView.value = '';
 //     }
 // }
 
-// const backUrl = 'https://hossein1499.github.io/back/json/back.json';
+// const backUrl = 'https://hossein1499.github.io/back/json/back-class.json';
+
 // // requestGet(backUrl).then(value => console.log(value)).catch(reason => console.log(reason));
 // requestGet(backUrl).then(value => makma = value);
 
@@ -63,7 +64,7 @@ weekView.value = '';
 // })
 
 
-const backUrl = 'https://hossein1499.github.io/back/json/back.json';
+const backUrl = 'https://hossein1499.github.io/back/json/back-class.json';
 
 async function requestPost(gUrl, data) {
     try {

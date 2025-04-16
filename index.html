@@ -7,84 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <link rel="stylesheet" href="back.css">
-    <title>back</title>
+    <link rel="stylesheet" href="style.css">
+    <title>back index</title>
 </head>
 
 <body dir="rtl">
 
     <main class="container">
 
-        <h2 class="my-3 text-center">
-            <a href="json/back.json">سند json</a>
-        </h2>
-
-        <form class="row row-cols-2">
-            <div>
-                <label for="class" class="form-label">کلاس مورد نظر خود را انتخاب کنید:</label>
-                <select id="class" class="form-select">
-                    <optgroup label="کلاس:">
-                        <option value="ریاضی">ریاضی</option>
-                        <option value="تجربی">تجربی</option>
-                        <option value="ادبیات">ادبیات</option>
-                        <option value="کامپیوتر">کامپیوتر</option>
-                        <option value="مکانیک">مکانیک</option>
-                        <option value="برق">برق</option>
-                        <option value="ساختمان">ساختمان</option>
-                        <option value="گرافیک">گرافیک</option>
-                    </optgroup>
-                </select>
-            </div>
-            <div>
-                <label for="year" class="form-label">پایه مورد نظر خود را انتخاب کنید:</label>
-                <select id="year" class="form-select">
-                    <optgroup label="پایه:">
-                        <option value="دهم">دهم</option>
-                        <option value="یازدهم">یازدهم</option>
-                        <option value="دوازدهم">دوازدهم</option>
-                    </optgroup>
-                </select>
-            </div>
-            <div>
-                <label for="branch" class="form-label">شعبه مورد نظر خود را انتخاب کنید:</label>
-                <select id="branch" class="form-select">
-                    <optgroup label="شعبه:">
-                        <option value="الف">الف</option>
-                        <option value="ب">ب</option>
-                        <option value="جیم">جیم</option>
-                    </optgroup>
-                </select>
-            </div>
-            <div>
-                <label for="lesson" class="form-label">درس مورد نظر خود را بنویسید:</label>
-                <input type="text" id="lesson" class="form-control" placeholder="مثال: ریاضی">
-            </div>
-            <div>
-                <label for="text" class="form-label">توضیحات کلاس درس خود را بنویسید:</label>
-                <textarea name="" id="text" placeholder="متن توضیحات..." class="form-control"></textarea>
-            </div>
-            <div>
-                <label for="time" class="form-label">ساعت برگزاری کلاس را بنویسید:</label>
-                <input type="text" id="time" class="form-control" placeholder="مثال: 18:30">
-            </div>
-            <div>
-                <label for="week" class="form-label">روز برگزاری کلاس را انتخاب کنید:</label>
-                <select id="week" class="form-select">
-                    <optgroup label="روز:">
-                        <option value="1">شنبه</option>
-                        <option value="2">یکشنبه</option>
-                        <option value="3">دوشنبه</option>
-                        <option value="4">سه شنبه</option>
-                        <option value="5">چهارشنبه</option>
-                        <option value="6">پنجشنبه</option>
-                        <option value="7">جمعه</option>
-                    </optgroup>
-                </select>
-            </div>
-            <div class="text-center mt-4">
-                <button id="send" type="button" class="btn btn-primary">ارسال فرام کلاس فوق برنامه</button>
-            </div>
-        </form>
+        <section class="d-flex justify-content-around my-5">
+            <h2>
+                <a href="html/back-class.html">صفحه کلاس</a>
+            </h2>
+            <h2>
+                <a href="html/back-calendar.html">صفحه تقویم</a>
+            </h2>
+        </section>
 
     </main>
 
@@ -94,7 +32,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
         crossorigin="anonymous"></script>
-    <script src="back.js"></script>
 </body>
 
 </html>
