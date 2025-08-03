@@ -7,3 +7,11 @@ let two = 2;
 let three = 3;
 
 export { one, two, three };
+
+let obj = {
+    Oone: 11,
+    Otwo: 22,
+    Othree: 33
+}
+
+export default obj;
