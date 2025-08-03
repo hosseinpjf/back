@@ -5,3 +5,5 @@ export function zarb(a) {
 let one = 1;
 let two = 2;
 let three = 3;
+
+export { one, two, three };
